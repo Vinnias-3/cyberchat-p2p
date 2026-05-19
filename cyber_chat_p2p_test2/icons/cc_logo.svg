@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff88"/>
+      <stop offset="100%" style="stop-color:#0066ff"/>
+    </linearGradient>
+    <linearGradient id="innerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff00cc"/>
+      <stop offset="100%" style="stop-color:#ff6666"/>
+    </linearGradient>
+  </defs>
+  
+  <circle cx="100" cy="100" r="95" fill="url(#bgGrad)" opacity="0.15"/>
+  <circle cx="100" cy="100" r="70" fill="url(#bgGrad)" opacity="0.9"/>
+  <circle cx="100" cy="100" r="55" fill="url(#innerGrad)" opacity="0.85"/>
+  
+  <text x="62" y="115" font-family="Arial" font-size="55" font-weight="bold" fill="white">C</text>
+  <text x="105" y="115" font-family="Arial" font-size="55" font-weight="bold" fill="white">C</text>
+  
+  <path d="M 140 75 Q 150 75 150 85 L 150 115 Q 150 125 140 125 L 125 125 L 118 135 L 122 125 L 110 125 Q 100 125 100 115 L 100 85 Q 100 75 110 75 Z" fill="white" opacity="0.3"/>
+  
+  <text x="100" y="185" text-anchor="middle" fill="#00ff88" font-size="9" font-family="monospace" font-weight="bold">P2P SECURE</text>
+</svg>
